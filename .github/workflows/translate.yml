@@ -18,14 +18,14 @@ jobs:
         id: changed_files
         run: |
           echo "files=$(git diff --name-only HEAD^ HEAD | grep '\.md$' | tr '\n' ' ')" >> $GITHUB_OUTPUT
-          
+
       - name: Run GPT Translate BP
         uses: 3ru/gpt-translate@master
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
           provider: 'openai'
           model: 'gpt-4o-mini'
-          inputFiles: ${{ steps.changed_files.outputs.files }}
+          inputFiles: './*.md'
           outputFiles: 'BP/**/*.md'
           languages: 'Portuguese'
 
@@ -35,7 +35,7 @@ jobs:
           apikey: ${{ secrets.OPENAI_API_KEY }}
           provider: 'openai'
           model: 'gpt-4o-mini'
-          inputFiles: ${{ steps.changed_files.outputs.files }}
+          inputFiles: './*.md'
           outputFiles: 'DE/**/*.md'
           languages: 'German'
 
@@ -45,7 +45,7 @@ jobs:
           apikey: ${{ secrets.OPENAI_API_KEY }}
           provider: 'openai'
           model: 'gpt-4o-mini'
-          inputFiles: ${{ steps.changed_files.outputs.files }}
+          inputFiles: './*.md'
           outputFiles: 'ES/**/*.md'
           languages: 'Spanish'
 
@@ -55,6 +55,6 @@ jobs:
           apikey: ${{ secrets.OPENAI_API_KEY }}
           provider: 'openai'
           model: 'gpt-4o-mini'
-          inputFiles: ${{ steps.changed_files.outputs.files }}
+          inputFiles: './*.md'
           outputFiles: 'FR/**/*.md'
           languages: 'French'
