@@ -5,5 +5,4 @@ On this page you can find information to record screencaptures on both Windows a
 
 And some more text. And some less. And again some more.
 
-
-> Edited text from Obsidian
+Looks like the '>' comment markdown syntax isn't translated by chat-gpt
