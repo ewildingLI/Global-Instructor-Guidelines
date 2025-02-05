@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository with two latest commits
         uses: actions/checkout@v3
         with:
-          fetch-depth: 2
+          fetch-depth: 1
  
       - name: get changed files name
         id: changed_files
@@ -25,7 +25,7 @@ jobs:
           apikey: ${{ secrets.OPENAI_API_KEY }}
           provider: 'openai'
           model: 'gpt-4o-mini'
-          inputFiles: '/*.md'
+          inputFiles: ${{ steps.changed_files.outputs.files }}
           outputFiles: 'BP/**/*.md'
           languages: 'Portuguese'
 
@@ -35,7 +35,7 @@ jobs:
           apikey: ${{ secrets.OPENAI_API_KEY }}
           provider: 'openai'
           model: 'gpt-4o-mini'
-          inputFiles: '/*.md'
+          inputFiles: ${{ steps.changed_files.outputs.files }}
           outputFiles: 'DE/**/*.md'
           languages: 'German'
 
@@ -45,7 +45,7 @@ jobs:
           apikey: ${{ secrets.OPENAI_API_KEY }}
           provider: 'openai'
           model: 'gpt-4o-mini'
-          inputFiles: '/*.md'
+          inputFiles: ${{ steps.changed_files.outputs.files }}
           outputFiles: 'ES/**/*.md'
           languages: 'Spanish'
 
@@ -55,6 +55,6 @@ jobs:
           apikey: ${{ secrets.OPENAI_API_KEY }}
           provider: 'openai'
           model: 'gpt-4o-mini'
-          inputFiles: '/*.md'
+          inputFiles: ${{ steps.changed_files.outputs.files }}
           outputFiles: 'FR/**/*.md'
           languages: 'French'
