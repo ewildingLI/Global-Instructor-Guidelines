@@ -5,5 +5,5 @@ On this page you can find information to record screencaptures on both Windows a
 
 
 
-> [!NOTE]
-> Added some info to generate pages
+
+> Edited text from Obsidian
