@@ -3,4 +3,4 @@ Lokalisierung: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelin
 
 Auf dieser Seite finden Sie Informationen zur Aufnahme von Bildschirmaufnahmen sowohl unter Windows als auch unter Mac.
 
-Und noch ein bisschen mehr Text. Und ein bisschen weniger. Und wieder ein bisschen mehr.
+Es scheint, dass die '>' Kommentar-Markdown-Syntax von Chat-GPT nicht übersetzt wird. Ein neuer Text.
