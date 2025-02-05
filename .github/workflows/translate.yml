@@ -1,5 +1,5 @@
 name: GPT Translate per Commit
- 
+
 on:
   push:
     branches:
@@ -7,21 +7,18 @@ on:
 jobs:
   gpt_translate:
     runs-on: ubuntu-latest
- 
+
     steps:
       - name: Checkout repository with two latest commits
         uses: actions/checkout@v3
         with:
           fetch-depth: 2
- 
-      - name: Get all changed markdown files
-        id: changed_files
-        uses: tj-actions/changed-files@v45
-        with:
-          # Avoid using single or double quotes for multiline patterns
-          files: |
-            **.md
 
+      - name: get changed files name
+        id: changed_files
+        run: |
+          echo "files=$(git diff --name-only HEAD^ HEAD | grep '\.md$' | tr '\n' ' ')" >> $GITHUB_OUTPUT
+          
       - name: Run GPT Translate BP
         uses: 3ru/gpt-translate@master
         with:
