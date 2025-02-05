@@ -19,7 +19,7 @@ jobs:
         run: |
           echo "files=$(git diff --name-only HEAD^ HEAD | grep '\.md$' | tr '\n' ' ')" >> $GITHUB_OUTPUT
           
-      - name: Run GPT Translate BP
+      - name: Run GPT Translate
         uses: 3ru/gpt-translate@master
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
