@@ -28,7 +28,8 @@ jobs:
           inputFiles: ${{ steps.changed_files.outputs.files }}
           outputFiles: 'BP/**/*.md'
           languages: 'Portuguese'
-      - name: Run GPT Translate BP
+
+      - name: Run GPT Translate DE
         uses: 3ru/gpt-translate@master
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
