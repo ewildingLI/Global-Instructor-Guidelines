@@ -15,12 +15,12 @@ jobs:
           fetch-depth: 2
  
       - name: Get all changed markdown files
-          id: changed_files
-          uses: tj-actions/changed-files@v45
-          with:
-            # Avoid using single or double quotes for multiline patterns
-            files: |
-              **.md
+        id: changed_files
+        uses: tj-actions/changed-files@v45
+        with:
+          # Avoid using single or double quotes for multiline patterns
+          files: |
+            **.md
 
       - name: Run GPT Translate BP
         uses: 3ru/gpt-translate@master
