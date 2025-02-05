@@ -18,43 +18,13 @@ jobs:
         id: changed_files
         run: |
           echo "files=$(git diff --name-only HEAD^ HEAD | grep '\.md$' | tr '\n' ' ')" >> $GITHUB_OUTPUT
-
+          
       - name: Run GPT Translate BP
         uses: 3ru/gpt-translate@master
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
           provider: 'openai'
           model: 'gpt-4o-mini'
-          inputFiles: './*.md'
-          outputFiles: 'BP/**/*.md'
-          languages: 'Portuguese'
-
-      - name: Run GPT Translate DE
-        uses: 3ru/gpt-translate@master
-        with:
-          apikey: ${{ secrets.OPENAI_API_KEY }}
-          provider: 'openai'
-          model: 'gpt-4o-mini'
-          inputFiles: './*.md'
-          outputFiles: 'DE/**/*.md'
-          languages: 'German'
-
-      - name: Run GPT Translate ES
-        uses: 3ru/gpt-translate@master
-        with:
-          apikey: ${{ secrets.OPENAI_API_KEY }}
-          provider: 'openai'
-          model: 'gpt-4o-mini'
-          inputFiles: './*.md'
-          outputFiles: 'ES/**/*.md'
-          languages: 'Spanish'
-
-      - name: Run GPT Translate FR
-        uses: 3ru/gpt-translate@master
-        with:
-          apikey: ${{ secrets.OPENAI_API_KEY }}
-          provider: 'openai'
-          model: 'gpt-4o-mini'
-          inputFiles: './*.md'
-          outputFiles: 'FR/**/*.md'
-          languages: 'French'
+          inputFiles: ${{ steps.changed_files.outputs.files }}
+          outputFiles: 'BP/**/*.md DE/**/*.md ES/**/*.md FR/**/*.md'
+          languages: 'Portuguese German Spanish French'
