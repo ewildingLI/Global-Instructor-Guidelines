@@ -4,4 +4,4 @@ Lokalisierung: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelin
 Auf dieser Seite finden Sie Informationen zur Aufnahme von Bildschirmaufnahmen sowohl unter Windows als auch unter Mac.
 
 > [!HINWEIS]
-> Einige Informationen zur Erstellung von Seiten hinzugefügt.
+> Einige Informationen zur Erstellung von Seiten wurden hinzugefügt.
