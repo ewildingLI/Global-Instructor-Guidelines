@@ -3,4 +3,4 @@ Localização: [Alemão](https://ewildingli.github.io/Global-Instructor-Guidelin
 
 Nesta página, você encontrará informações sobre como gravar a tela tanto no Windows quanto no Mac.
 
-Parece que a sintaxe de comentário '>' do Markdown do ChatGPT não é traduzida. Um novo texto.
+Parece que a sintaxe de comentário '>' do Markdown do Chat-GPT não é traduzida. Um novo texto.
