@@ -1,6 +1,6 @@
 # Willkommen
-Lokalisierung: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [Englisch](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Spanisch](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Französisch](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
+Standort: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [English](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Español](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
 
-Auf dieser Seite finden Sie Informationen zur Aufnahme von Bildschirmaufnahmen sowohl unter Windows als auch unter Mac.
+Auf dieser Seite findest du Informationen zum Aufnehmen von Screenshots sowohl unter Windows als auch unter Mac.
 
-Und noch ein bisschen mehr Text. Und ein bisschen weniger. Und wieder ein bisschen mehr.
+Und ein bisschen mehr Text. Und ein bisschen weniger. Und wieder ein bisschen mehr.
