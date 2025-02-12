@@ -3,15 +3,19 @@ Localización: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelin
 
 En esta página puedes encontrar información para grabar capturas de pantalla tanto en Windows como en Mac.
 
-Parece que la sintaxis de comentarios '>' en markdown no se traduce por chat-gpt.
+Parece que la sintaxis de comentarios en markdown '>' no se traduce por chat-gpt.
 
 Vamos a editar este readme...
 
 Editando markdown
 
-> Intentemos de nuevo con un comentario
+> Intentemos algunos comentarios nuevamente  
 Y algo de texto después.
 
 Veamos si encuentra esto: OOO
 
 Un poco más de OOO y BOOOM
+
+Agregando un video como recurso:
+
+https://github.com/user-attachments/assets/be74703f-6879-45a5-ac12-fa11a221ed79
