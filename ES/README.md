@@ -1,6 +1,13 @@
-# Bem-vindo
-Localização: [Alemão](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [Inglês](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Espanhol](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Francês](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
+# Bienvenido
+Localización: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [English](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Español](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
 
-Nesta página, você encontrará informações sobre como gravar a tela tanto no Windows quanto no Mac.
+En esta página puedes encontrar información para grabar capturas de pantalla tanto en Windows como en Mac.
 
-Parece que a sintaxe de comentário '>' do Markdown do Chat-GPT não é traduzida. Um novo texto.
+Parece que la sintaxis de comentarios '>' en markdown no se traduce en chat-gpt.
+
+Vamos a editar este readme...
+
+Editando markdown
+
+> Intentemos de nuevo con un comentario
+Y algo de texto después.
