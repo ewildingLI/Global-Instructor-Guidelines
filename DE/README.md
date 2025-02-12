@@ -1,22 +1,22 @@
 # Willkommen
-Standort: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [English](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Espagnol](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
+Standort: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [Englisch](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Spanisch](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Französisch](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
 
-Auf dieser Seite finden Sie Informationen zum Aufnehmen von Screenshots unter Windows und Mac.
+Auf dieser Seite finden Sie Informationen darüber, wie Sie Screenshots sowohl unter Windows als auch unter Mac erstellen können.
 
-Es scheint, dass die Kommentar-Syntax '>' in Markdown nicht von Chat-GPT übersetzt wird.
+Es scheint, dass die Syntax für Kommentare im Markdown '>' vom Chat-GPT nicht übersetzt wird.
 
 Lass uns dieses README bearbeiten...
 
-Bearbeitung des Markdown
+Markdown-Bearbeitung
 
-> Lass uns noch einen Kommentar versuchen
-Und ein bisschen Text danach.
+> Lassen Sie uns einige Kommentare erneut versuchen  
+Und ein wenig Text danach.
 
-Mal sehen, ob er das findet: OOO
+Lass uns sehen, ob das erkannt wird: OOO
 
-Noch ein bisschen OOO und BOOOM
+Ein bisschen mehr OOO und BOOOM
 
-Hinzufügen eines Videos als Element:
+Ein Video als Ressource hinzufügen:
 
 <video width="320" height="240" controls>
   <source src="https://github.com/user-attachments/assets/be74703f-6879-45a5-ac12-fa11a221ed79" type="video/mp4">
