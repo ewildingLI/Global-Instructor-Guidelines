@@ -1,21 +1,21 @@
 # Willkommen
-Lokalisierung: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [Englisch](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Español](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
+Standort: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [English](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Español](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
 
-Auf dieser Seite finden Sie Informationen zur Aufnahme von Bildschirmaufnahmen sowohl unter Windows als auch unter Mac.
+Auf dieser Seite finden Sie Informationen darüber, wie Sie Screenshots sowohl unter Windows als auch auf dem Mac erstellen können.
 
-Es scheint, dass die '>' Kommentar-Markdown-Syntax von Chat-GPT nicht übersetzt wird.
+Es scheint, dass die Kommentar-Syntax '>' in Markdown nicht vom Chat-GPT übersetzt wird.
 
-Lass uns dieses README bearbeiten...
+Lassen Sie uns dieses README bearbeiten...
 
 Markdown bearbeiten
 
-> Lass uns noch einmal einen Kommentar versuchen
-Und danach etwas Text.
+> Lassen Sie uns einige Kommentare erneut ausprobieren  
+Und ein wenig Text danach.
 
-Mal sehen, ob es das findet: OOO
+Mal sehen, ob er das findet: OOO
 
-Noch mehr OOO und BOOOM
+Ein bisschen mehr OOO und BOOOM
 
-Ein Video als Asset hinzufügen:
+Ein Video als Ressource hinzufügen:
 
-<video width="320" height="240" controls><source src="https://github.com/user-attachments/assets/be74703f-6879-45a5-ac12-fa11a221ed79" type="video/mp4">Your browser does not support the video tag.</video>
+<video width="320" height="240" controls><source src="https://github.com/user-attachments/assets/be74703f-6879-45a5-ac12-fa11a221ed79" type="video/mp4">Ihr Browser unterstützt das Video-Tag nicht.</video>
