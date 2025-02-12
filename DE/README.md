@@ -3,11 +3,14 @@ Lokalisierung: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelin
 
 Auf dieser Seite finden Sie Informationen zur Aufnahme von Bildschirmaufnahmen sowohl unter Windows als auch unter Mac.
 
-Es scheint, dass die '>' Kommentar-Markdown-Syntax von Chat-GPT nicht übersetzt wird.
+Es scheint, dass die '>' Kommentar-Markdown-Syntax von ChatGPT nicht übersetzt wird.
 
 Lass uns dieses README bearbeiten...
 
 Markdown bearbeiten
 
-> Lass uns noch einmal einen Kommentar versuchen  
+> Lass uns noch einmal einen Kommentar versuchen
 Und danach etwas Text.
+
+Mal sehen, ob es das findet: ***
+Ein bisschen mehr *** und B***M
