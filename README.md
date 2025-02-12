@@ -3,8 +3,6 @@ Localization: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guideline
 
 On this page you can find information to record screencaptures on both Windows and Mac.
 
-Looks like the '>' comment markdown syntax isn't translated by chat-gpt.
-
 ## Edit a readme
 
 > Let's try some comment again
