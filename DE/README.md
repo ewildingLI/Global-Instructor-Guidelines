@@ -1,21 +1,21 @@
 # Willkommen
-Lokalisierung: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [Englisch](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Español](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
+Standort: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [English](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Español](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
 
-Auf dieser Seite finden Sie Informationen zur Aufnahme von Bildschirmaufnahmen sowohl unter Windows als auch unter Mac.
+Auf dieser Seite findest du Informationen zum Aufnehmen von Screenshots sowohl unter Windows als auch unter Mac.
 
-Es scheint, dass die '>' Kommentar-Markdown-Syntax von Chat-GPT nicht übersetzt wird.
+Es scheint, dass die Kommentarsyntax '>' in Markdown nicht von Chat-GPT übersetzt wird.
 
-Lass uns dieses README bearbeiten...
+Lass uns dieses Readme bearbeiten...
 
 Markdown bearbeiten
 
-> Lass uns noch einmal einen Kommentar versuchen
-Und danach etwas Text.
+> Lass uns einige Kommentare erneut versuchen  
+Und etwas Text danach.
 
-Mal sehen, ob es das findet: OOO
+Mal sehen, ob er das findet: OOO
 
-Noch mehr OOO und BOOOM
+Ein bisschen mehr OOO und BOOOM
 
-Ein Video als Asset hinzufügen:
+Ein Video als Ressource hinzufügen:
 
 video#https://github.com/user-attachments/assets/be74703f-6879-45a5-ac12-fa11a221ed79#video
