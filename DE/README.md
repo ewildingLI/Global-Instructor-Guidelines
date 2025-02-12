@@ -5,7 +5,7 @@ Auf dieser Seite finden Sie Informationen darüber, wie Sie Screenshots sowohl u
 
 Es scheint, dass die Syntax der Kommentare '>' in Markdown von Chat-GPT nicht übersetzt wird.
 
-Lassen Sie uns dieses Readme bearbeiten...
+Lass uns dieses Readme bearbeiten...
 
 Bearbeitung des Markdowns
 
