@@ -18,6 +18,5 @@ Some more OOO and BOOOM
 
 Adding an video as asset:
 
-
-[20250130_105039_lama.mp4](assets/20250130_105039_lama.mp4)
+https://github.com/user-attachments/assets/be74703f-6879-45a5-ac12-fa11a221ed79
 
