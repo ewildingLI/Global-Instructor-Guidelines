@@ -15,3 +15,9 @@ And some text afterwards.
 let's see if it finds this: OOO
 
 Some more OOO and BOOOM
+
+Adding an video as asset:
+
+
+[20250130_105039_lama.mp4](assets/20250130_105039_lama.mp4)
+
