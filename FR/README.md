@@ -11,3 +11,6 @@ Il semble que la syntaxe de commentaire markdown '>' ne soit pas traduite par ch
 
 > Essayons encore quelques commentaires
 Et un peu de texte après.
+
+Voyons s'il trouve ceci : ***
+Encore un peu *** et BOOOM
