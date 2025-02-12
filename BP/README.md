@@ -11,3 +11,6 @@ Editando markdown
 
 > Vamos tentar mais um comentário
 E algum texto depois.
+
+Vamos ver se ele encontra isso: ***
+Algum mais *** e B***M
