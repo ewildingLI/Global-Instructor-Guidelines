@@ -35,7 +35,7 @@ jobs:
     gpt_translate:
         runs-on: ubuntu-latest
         needs: findreplace
-        if: ${{ always() && !cancelled() && needs.build.result == 'success' }}
+        if: ${{ always() && !cancelled() }}
         steps:
           - name: Checkout repository with two latest commits
             uses: actions/checkout@v3
@@ -94,7 +94,7 @@ jobs:
           findreplace,
           gpt_translate
         ]
-        if: ${{ always() && !cancelled() && needs.build.result == 'success' }}
+        if: ${{ always() && !cancelled() }}
         steps:
           - name: Checkout
             uses: actions/checkout@v4
