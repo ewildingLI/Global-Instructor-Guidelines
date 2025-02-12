@@ -11,5 +11,6 @@ jobs:
           find: "***"
           replace: "OOO"
           regex: false
+          include: "**README.md"
       - name: Push changes
         uses: stefanzweifel/git-auto-commit-action@v4
