@@ -3,7 +3,7 @@ Localization: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guideline
 
 On this page you can find information to record screencaptures on both Windows and Mac.
 
-Changing something, bla
+Now the reuild only triggers if the new localized versions are merged.
 
 ## Edit a readme
 
