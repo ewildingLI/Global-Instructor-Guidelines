@@ -9,11 +9,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
   call-replacevideo:
-    uses: ./.github/workflows/replacevideo.yaml
+    uses: /.github/workflows/replacevideo.yaml
   call-translate:
     needs: call-replacevideo
-    uses: ./.github/workflows/translate.yaml
+    uses: /.github/workflows/translate.yaml
   call-jekyll-gh-pages:
     if: ${{ always() }} #This will make your workflow2 executed even if workflow1 fails, remove this, if you want to run this only on success of workflow1
     needs: call-translate
-    uses: ./.github/workflows/jekyll-gh-pages.yml
+    uses: /.github/workflows/jekyll-gh-pages.yml
