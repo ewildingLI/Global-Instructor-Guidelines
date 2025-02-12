@@ -1,17 +1,17 @@
 # Bienvenue
-Localisation : [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [English](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Espagnol](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
+Localisation : [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [English](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Español](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
 
-Sur cette page, vous pouvez trouver des informations pour enregistrer des captures d'écran sur Windows et Mac.
+Sur cette page, vous pouvez trouver des informations sur la façon de faire des captures d'écran à la fois sur Windows et sur Mac.
 
-Il semble que la syntaxe de commentaire '>' en markdown ne soit pas traduite par chat-gpt.
+Il semble que la syntaxe des commentaires '>' en markdown ne soit pas traduite par chat-gpt.
 
-Éditons ce readme...
+Allons modifier ce readme...
 
-Édition du markdown
+Édition de markdown
 
-> Essayons encore un commentaire
+> Essayons à nouveau avec un commentaire  
 Et un peu de texte après.
 
-Voyons s'il trouve cela : OOO
+Voyons si cela est détecté : OOO
 
-Encore un peu de OOO et BOOOM
+Un peu plus de OOO et BOOOM.
