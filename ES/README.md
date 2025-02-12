@@ -3,16 +3,17 @@ Localización: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelin
 
 En esta página puedes encontrar información para grabar capturas de pantalla tanto en Windows como en Mac.
 
-Y añadiendo un poco de texto de nuevo. Y otra vez.
+Y añadiendo un poco de texto nuevamente. Y otra vez.
+Cambiando algo
 
 ## Editar un readme
 
-> Intentemos comentar algo de nuevo.
-Y un poco de texto después.
+> Intentemos algunos comentarios nuevamente
+Y algo de texto después.
 
-Veamos si encuentra esto: OOO
+veamos si encuentra esto: OOO
 
-Un poco más de OOO y BOOOM.
+Un poco más de OOO y BOOOM
 
 Añadiendo un video como recurso:
 
