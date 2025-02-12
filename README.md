@@ -5,9 +5,7 @@ On this page you can find information to record screencaptures on both Windows a
 
 Looks like the '>' comment markdown syntax isn't translated by chat-gpt.
 
-Edit it again.
-
-Editing markdown
+Changing some text to see if workflows run in sequence.
 
 > Let's try some comment again
 And some text afterwards.
