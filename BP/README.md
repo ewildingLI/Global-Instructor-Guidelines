@@ -3,14 +3,14 @@ Localização: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelin
 
 Nesta página, você pode encontrar informações sobre como gravar capturas de tela tanto no Windows quanto no Mac.
 
-E adicionando um pouco de texto novamente. E novamente.
+Mudando algo, bla
 
 ## Editar um readme
 
 > Vamos tentar mais um comentário
-E um pouco de texto depois.
+E algum texto depois.
 
-Vamos ver se ele encontra isso: OOO
+vamos ver se ele encontra isso: OOO
 
 Mais OOO e BOOOM
 
