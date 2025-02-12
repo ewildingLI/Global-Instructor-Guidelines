@@ -3,17 +3,17 @@ Localisation : [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelin
 
 Sur cette page, vous pouvez trouver des informations pour enregistrer des captures d'écran sur Windows et Mac.
 
-Et ajoutons encore un peu de texte. Encore et encore.
+Modifier quelque chose, bla
 
 ## Modifier un readme
 
 > Essayons encore quelques commentaires
-Et un peu de texte ensuite.
+Et un peu de texte après.
 
 Voyons si cela trouve ceci : OOO
 
 Encore un peu de OOO et BOOOM
 
-Ajoutons une vidéo en tant qu'élément :
+Ajouter une vidéo en tant qu'élément :
 
 <video width="320" height="240" controls><source src="https://github.com/user-attachments/assets/be74703f-6879-45a5-ac12-fa11a221ed79" type="video/mp4">Votre navigateur ne prend pas en charge la balise vidéo.</video>
