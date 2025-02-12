@@ -24,7 +24,7 @@ jobs:
           apikey: ${{ secrets.OPENAI_API_KEY }}
           provider: 'openai'
           model: 'gpt-4o-mini'
-          inputFiles: ${{ jobs.gpt_translate.steps.changed_files.outputs.files }}
+          inputFiles: ${{ gpt_translate.steps.changed_files.outputs.files }}
           outputFiles: 'BP/**/*.md'
           languages: 'Portuguese'
           
