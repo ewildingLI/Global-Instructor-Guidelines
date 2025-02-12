@@ -4,11 +4,12 @@ Localisation : [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelin
 Sur cette page, vous pouvez trouver des informations pour enregistrer des captures d'écran sur Windows et Mac.
 
 Maintenant, la reconstruction ne se déclenche que si les nouvelles versions localisées sont fusionnées.
+Un autre test.
 
 ## Modifier un readme
 
-> Essayons encore quelques commentaires
-Et un peu de texte ensuite.
+> Essayons encore un commentaire
+Et un peu de texte après.
 
 Voyons si cela trouve ceci : OOO
 
