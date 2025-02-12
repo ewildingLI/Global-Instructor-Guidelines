@@ -5,6 +5,8 @@ On this page you can find information to record screencaptures on both Windows a
 
 Looks like the '>' comment markdown syntax isn't translated by chat-gpt.
 
+Let's edit this readme...
+
 Editing markdown
 
 > Let's try some comment again
