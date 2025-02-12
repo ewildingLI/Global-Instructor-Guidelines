@@ -18,5 +18,8 @@ Some more OOO and BOOOM
 
 Adding an video as asset:
 
-https://github.com/user-attachments/assets/be74703f-6879-45a5-ac12-fa11a221ed79
-
+<video width="320" height="240" controls>
+  <source src="https://github.com/user-attachments/assets/be74703f-6879-45a5-ac12-fa11a221ed79
+" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
