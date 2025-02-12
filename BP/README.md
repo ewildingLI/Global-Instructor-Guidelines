@@ -1,20 +1,18 @@
 # Bem-vindo
-Localização: [Alemão](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [Inglês](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Espanhol](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Francês](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
+Localização: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [English](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Español](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
 
-Nesta página, você pode encontrar informações sobre como fazer capturas de tela tanto no Windows quanto no Mac.
+Nesta página, você pode encontrar informações sobre como gravar capturas de tela tanto no Windows quanto no Mac.
 
-Parece que a sintaxe dos comentários '>' em markdown não está sendo traduzida pelo chat-gpt.
+E adicionando um pouco de texto novamente. E novamente.
 
-Vamos editar este readme...
+## Editar um readme
 
-Edição do markdown
-
-> Vamos tentar alguns comentários novamente  
+> Vamos tentar mais um comentário
 E um pouco de texto depois.
 
 Vamos ver se ele encontra isso: OOO
 
-Um pouco mais de OOO e BOOOM
+Mais OOO e BOOOM
 
 Adicionando um vídeo como recurso:
 
