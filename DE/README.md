@@ -1,11 +1,12 @@
 # Willkommen
-Lokalisierung: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [Englisch](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Spanisch](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Französisch](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
+Lokalisierung: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [Englisch](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Español](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
 
 Auf dieser Seite finden Sie Informationen zur Aufnahme von Bildschirmaufnahmen sowohl unter Windows als auch unter Mac.
 
 Der Build wird jetzt nur ausgelöst, wenn die neuen lokalisierten Versionen zusammengeführt werden.
+Ein weiterer Test.
 
-## README bearbeiten
+## Eine README bearbeiten
 
 > Lassen Sie uns noch einmal einen Kommentar versuchen
 Und danach etwas Text.
