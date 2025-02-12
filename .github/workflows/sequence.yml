@@ -1,0 +1,18 @@
+name: Sequence
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+  call-replacevideo:
+    uses: ./.github/workflows/replacevideo.yaml
+  call-translate:
+    needs: call-replacevideo
+    uses: ./.github/workflows/translate.yaml
+#   call-jekyll-gh-pages:
+#     needs: call-translate
+#     uses: ./.github/workflows/jekyll-gh-pages.yml

@@ -1,9 +1,7 @@
 name: GPT Translate per Commit
  
 on:
-  push:
-    branches:
-      - main
+  workflow_call:
 jobs:
   gpt_translate:
     runs-on: ubuntu-latest
