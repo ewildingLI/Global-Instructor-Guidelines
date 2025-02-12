@@ -3,16 +3,17 @@ Localisation : [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelin
 
 Sur cette page, vous pouvez trouver des informations pour enregistrer des captures d'écran sur Windows et Mac.
 
-Et ajoutons encore un peu de texte. Encore et encore.
+Et ajouter un peu de texte encore. Et encore.
+Modifier quelque chose.
 
 ## Modifier un readme
 
-> Essayons encore quelques commentaires
+> Essayons encore quelques commentaires.
 Et un peu de texte ensuite.
 
 Voyons si cela trouve ceci : OOO
 
-Encore un peu de OOO et BOOOM
+Encore un peu de OOO et BOOOM.
 
 Ajoutons une vidéo en tant qu'élément :
 
