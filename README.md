@@ -12,5 +12,5 @@ Editing markdown
 > Let's try some comment again
 And some text afterwards.
 
-let's see if it finds this: ***
-Some more *** and B***M
+let's see if it finds this: OOO
+Some more OOO and BOOOM
