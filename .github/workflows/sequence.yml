@@ -13,6 +13,7 @@ jobs:
   call-translate:
     needs: call-replacevideo
     uses: ./.github/workflows/translate.yaml
-#   call-jekyll-gh-pages:
-#     needs: call-translate
-#     uses: ./.github/workflows/jekyll-gh-pages.yml
+  call-jekyll-gh-pages:
+    if: ${{ always() }} #This will make your workflow2 executed even if workflow1 fails, remove this, if you want to run this only on success of workflow1
+    needs: call-translate
+    uses: ./.github/workflows/jekyll-gh-pages.yml
