@@ -3,7 +3,7 @@ Localisation : [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelin
 
 Sur cette page, vous pouvez trouver des informations pour enregistrer des captures d'écran sur Windows et Mac.
 
-Il semble que la syntaxe de commentaire '>' en markdown ne soit pas traduite par chat-gpt.
+Il semble que la syntaxe de commentaire markdown '>' ne soit pas traduite par chat-gpt.
 
 Éditons ce readme...
 
@@ -15,3 +15,7 @@ Et un peu de texte après.
 Voyons s'il trouve cela : OOO
 
 Encore un peu de OOO et BOOOM
+
+Ajout d'une vidéo en tant qu'élément :
+
+[20250130_105039_lama.mp4](assets/20250130_105039_lama.mp4)
