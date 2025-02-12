@@ -9,5 +9,8 @@ Il semble que la syntaxe de commentaire markdown '>' ne soit pas traduite par ch
 
 Édition de markdown
 
-> Essayons encore quelques commentaires
+> Essayons encore un commentaire
 Et un peu de texte après.
+
+Voyons s'il trouve ceci : ***
+Encore un peu *** et B***M
