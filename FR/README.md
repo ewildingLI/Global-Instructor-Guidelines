@@ -3,7 +3,7 @@ Localisation : [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelin
 
 Sur cette page, vous trouverez des informations pour enregistrer des captures d'écran sur Windows et Mac.
 
-D'autres informations à venir bientôt.
+D'autres informations seront bientôt disponibles.
 
 - [ ] case à cocher
 
