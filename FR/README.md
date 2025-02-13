@@ -5,13 +5,14 @@ Sur cette page, vous pouvez trouver des informations pour enregistrer des captur
 
 Maintenant, la reconstruction ne se déclenche que si les nouvelles versions localisées sont fusionnées.
 Un autre test. Quelque chose était différent.
+Lorem ipsum est un texte de remplacement.
 
 ## Modifier un readme
 
 > Essayons encore un commentaire
 Et un peu de texte après.
 
-Voyons s'il trouve ceci : OOO
+Voyons si cela trouve ceci : OOO
 
 Encore un peu de OOO et BOOOM
 
