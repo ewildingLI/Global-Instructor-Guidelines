@@ -18,15 +18,22 @@ concurrency:
     cancel-in-progress: false
 
 jobs:
-    findreplace:
+    replacevideo:
         runs-on: ubuntu-latest
         steps:
           - uses: actions/checkout@v2
           - name: Find and Replace
             uses: jacobtomlinson/gha-find-replace@v3
             with:
-              find: "***"
-              replace: "OOO"
+              find: "video#"
+              replace: '<video width="320" height="240" controls><source src="'
+              regex: false
+              include: "**README.md"
+          - name: Find and Replace
+            uses: jacobtomlinson/gha-find-replace@v3
+            with:
+              find: "#video"
+              replace: '" type="video/mp4">Your browser does not support the video tag.</video>'
               regex: false
               include: "**README.md"
           - name: Push changes
@@ -34,7 +41,7 @@ jobs:
 
     gpt_translate:
         runs-on: ubuntu-latest
-        needs: findreplace
+        needs: replacevideo
         if: ${{ always() && !cancelled() }}
         steps:
           - name: Checkout repository with two latest commits
