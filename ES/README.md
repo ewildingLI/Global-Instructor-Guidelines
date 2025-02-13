@@ -6,6 +6,7 @@ En esta página puedes encontrar información para grabar capturas de pantalla t
 Ahora la reconstrucción solo se activa si se fusionan las nuevas versiones localizadas.
 Otra prueba. Algo fue diferente.
 Lorem ipsum es un texto de marcador de posición.
+Editando este sitio para pruebas.
 
 ## Editar un readme
 
