@@ -4,11 +4,11 @@ Localização: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelin
 Nesta página, você pode encontrar informações sobre como gravar capturas de tela tanto no Windows quanto no Mac.
 
 Agora, a reconstrução só é acionada se as novas versões localizadas forem mescladas.
-Outro teste.
+Outro teste. Algo estava diferente.
 
 ## Editar um readme
 
-> Vamos tentar alguns comentários novamente
+> Vamos tentar mais um comentário
 E algum texto depois.
 
 Vamos ver se ele encontra isso: OOO
