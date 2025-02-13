@@ -5,6 +5,7 @@ On this page you can find information to record screencaptures on both Windows a
 
 Now the reuild only triggers if the new localized versions are merged.
 Another test. Something was different.
+Lorem ipsum is a placeholder text.
 
 ## Edit a readme
 
