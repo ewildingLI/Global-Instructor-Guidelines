@@ -1,9 +1,9 @@
 # Bienvenue
-Localisation : [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [English](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Espagnol](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
+Localisation : [Allemand](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [Anglais](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Espagnol](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
 
-Sur cette page, vous pouvez trouver des informations pour enregistrer des captures d'écran sur Windows et Mac.
+Sur cette page, vous trouverez des informations pour enregistrer des captures d'écran sur Windows et Mac.
 
-Maintenant, la reconstruction ne se déclenche que si les nouvelles versions localisées sont fusionnées.
+Actuellement, la reconstruction ne se déclenche que lorsque les nouvelles versions localisées sont fusionnées.
 Un autre test. Quelque chose était différent.
 Lorem ipsum est un texte de remplissage.
 Modification de ce site pour des tests.
