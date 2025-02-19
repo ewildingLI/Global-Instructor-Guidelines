@@ -1,4 +1,4 @@
-name: General Workflow
+name: Readme Actions Workflow
 
 on:
     push:
@@ -22,14 +22,21 @@ jobs:
         runs-on: ubuntu-latest
         steps:
           - uses: actions/checkout@v2
-          - name: Find and Replace
+          - name: "Find and Replace video#"
             uses: jacobtomlinson/gha-find-replace@v3
             with:
               find: "video#"
               replace: '<video width="320" height="240" controls><source src="'
               regex: false
               include: "**README.md"
-          - name: Find and Replace
+          - name: "Find and Replace vidéo#"
+            uses: jacobtomlinson/gha-find-replace@v3
+            with:
+              find: "vidéo#"
+              replace: '<video width="320" height="240" controls><source src="'
+              regex: false
+              include: "**README.md"
+          - name: "Find and Replace #video"
             uses: jacobtomlinson/gha-find-replace@v3
             with:
               find: "#video"
