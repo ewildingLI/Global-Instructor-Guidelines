@@ -1,2 +1,2 @@
 Hallo, das ist ein Test.  
-Ich füge etwas Text hinzu.
+Lass uns ein wenig Text hinzufügen.
