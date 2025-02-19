@@ -1,2 +1,2 @@
-Olá, isso é um teste.  
-Adicionando um pouco de texto.
+Olá, isto é um teste.  
+Vamos adicionar um pouco de texto.
