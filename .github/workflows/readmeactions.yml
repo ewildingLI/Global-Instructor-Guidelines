@@ -1,2 +1,104 @@
-# removed for testing
+name: Readme Actions Workflow
+
+on:
+    push:
+        branches: [ "main" ]
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+    contents: write
+    pages: write
+    id-token: write
+    pull-requests: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+    group: "pages"
+    cancel-in-progress: false
+
+jobs:
+    replacevideo:
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v2
+          - name: "Find and Replace video#"
+            uses: jacobtomlinson/gha-find-replace@v3
+            with:
+              find: "video#"
+              replace: '<video width="320" height="240" controls><source src="'
+              regex: false
+              include: "*.md"
+          - name: "Find and Replace vidéo#"
+            uses: jacobtomlinson/gha-find-replace@v3
+            with:
+              find: "vidéo#"
+              replace: '<video width="320" height="240" controls><source src="'
+              regex: false
+              include: "*.md"
+          - name: "Find and Replace #video"
+            uses: jacobtomlinson/gha-find-replace@v3
+            with:
+              find: "#video"
+              replace: '" type="video/mp4">Your browser does not support the video tag.</video>'
+              regex: false
+              include: "*.md"
+          - name: Push changes
+            uses: stefanzweifel/git-auto-commit-action@v4
+
+    gpt_translate:
+        runs-on: ubuntu-latest
+        needs: replacevideo
+        if: ${{ always() && !cancelled() }}
+        steps:
+          - name: Checkout repository with two latest commits
+            uses: actions/checkout@v3
+            with:
+              fetch-depth: 2
+
+          - name: get changed files name
+            id: changed_files
+            run: |
+              echo "git diff --name-only HEAD^ HEAD | grep '\.md$' | tr '\n' ' '"
+              echo "FILES=$(git diff --name-only HEAD^ HEAD | grep '\.md$' | tr '\n' ' ')" >> $GITHUB_ENV
+            
+          - name: Run GPT Translate BP
+            uses: 3ru/gpt-translate@master
+            with:
+              apikey: ${{ secrets.OPENAI_API_KEY }}
+              provider: 'openai'
+              model: 'gpt-4o-mini'
+              inputFiles: ${{ env.FILES }}
+              outputFiles: 'BP/**/*.md'
+              languages: 'Portuguese'
+            
+          - name: Run GPT Translate DE
+            uses: 3ru/gpt-translate@master
+            with:
+              apikey: ${{ secrets.OPENAI_API_KEY }}
+              provider: 'openai'
+              model: 'gpt-4o-mini'
+              inputFiles: ${{ env.FILES }}
+              outputFiles: 'DE/**/*.md'
+              languages: 'German'
+            
+          - name: Run GPT Translate ES
+            uses: 3ru/gpt-translate@master
+            with:
+              apikey: ${{ secrets.OPENAI_API_KEY }}
+              provider: 'openai'
+              model: 'gpt-4o-mini'
+              inputFiles: ${{ env.FILES }}
+              outputFiles: 'ES/**/*.md'
+              languages: 'Spanish'
+
+          - name: Run GPT Translate FR
+            uses: 3ru/gpt-translate@master
+            with:
+              apikey: ${{ secrets.OPENAI_API_KEY }}
+              provider: 'openai'
+              model: 'gpt-4o-mini'
+              inputFiles: ${{ env.FILES }}
+              outputFiles: 'FR/**/*.md'
+              languages: 'French'
 
