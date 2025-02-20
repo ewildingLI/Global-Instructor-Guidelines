@@ -3,9 +3,9 @@ Localización: [Alemán](https://ewildingli.github.io/Global-Instructor-Guidelin
 
 En esta página, encontrarás información sobre cómo capturar pantallas en Windows y Mac.
 
-Pronto habrá más información. Y más pruebas.
+Pronto habrá más información disponible. Y más pruebas.
 
-- [ ] casilla de verificación
+- [ ] casilla para marcar
 
 [Enlace a test.md](https://ewildingli.github.io/Global-Instructor-Guidelines/test.html)
 
