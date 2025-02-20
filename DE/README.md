@@ -3,7 +3,7 @@ Standort: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE
 
 Auf dieser Seite finden Sie Informationen zum Aufnehmen von Screenshots unter Windows und Mac.
 
-Weitere Informationen folgen bald. Und mehr Tests.
+Weitere Informationen werden bald verfügbar sein. Und mehr Tests.
 
 - [ ] Kontrollkästchen
 
