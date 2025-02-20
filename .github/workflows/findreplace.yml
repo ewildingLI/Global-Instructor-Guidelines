@@ -1,4 +1,4 @@
-name: Readme Actions Workflow
+name: Replace URLS
 
 on:
     push:
