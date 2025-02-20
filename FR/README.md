@@ -1,12 +1,12 @@
 # Bienvenue
-Localisation : [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [English](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Espagnol](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
+Localisation : [Allemand](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [Anglais](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Espagnol](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
 
-Sur cette page, vous pouvez trouver des informations pour enregistrer des captures d'écran sur Windows et Mac.
+Sur cette page, vous pouvez trouver des informations sur la façon de faire des captures d'écran à la fois sur Windows et sur Mac.
 
-D'autres informations à venir bientôt. Et quelques tests
+Plus de nouvelles bientôt. Et quelques tests
 
 - [ ] case à cocher
 
-[Liens vers test.md](https://ewildingli.github.io/Global-Instructor-Guidelines/test.html)
+[Lien vers test.md](https://ewildingli.github.io/index.html)
 
 <video width="320" height="240" controls><source src="https://github.com/user-attachments/assets/6fa2e412-0073-41ed-81e4-6a23a32ee3ce" type="video/mp4">Votre navigateur ne prend pas en charge la balise vidéo.</video>
