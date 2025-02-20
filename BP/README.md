@@ -1,9 +1,9 @@
 # Bem-vindo
 Localização: [Alemão](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [Inglês](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Espanhol](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Francês](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
 
-Nesta página, você encontrará informações sobre como registrar capturas de tela no Windows e no Mac.
+Nesta página, você encontrará informações sobre como capturar telas no Windows e no Mac.
 
-Mais informações em breve. E mais testes.
+Mais informações estarão disponíveis em breve. E mais testes.
 
 - [ ] caixa de seleção
 
