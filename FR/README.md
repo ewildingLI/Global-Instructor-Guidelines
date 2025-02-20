@@ -1,7 +1,7 @@
 # Bienvenue
 Localisation : [Allemand](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [Anglais](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Espagnol](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
 
-Sur cette page, vous pouvez trouver des informations sur la façon de faire des captures d'écran à la fois sur Windows et sur Mac.
+Sur cette page, vous trouverez des informations sur la manière de faire des captures d'écran à la fois sur Windows et sur Mac.
 
 Plus de nouvelles bientôt. Et quelques tests
 
