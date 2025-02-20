@@ -28,21 +28,28 @@ jobs:
               find: "video#"
               replace: '<video width="320" height="240" controls><source src="'
               regex: false
-              include: "**README.md"
+              include: "*.md"
           - name: "Find and Replace vidéo#"
             uses: jacobtomlinson/gha-find-replace@v3
             with:
               find: "vidéo#"
               replace: '<video width="320" height="240" controls><source src="'
               regex: false
-              include: "**README.md"
+              include: "*.md"
           - name: "Find and Replace #video"
             uses: jacobtomlinson/gha-find-replace@v3
             with:
               find: "#video"
               replace: '" type="video/mp4">Your browser does not support the video tag.</video>'
               regex: false
-              include: "**README.md"
+              include: "*.md"
+          - name: "Find and Replace BP links"
+            uses: jacobtomlinson/gha-find-replace@v3
+            with:
+              find: "([A-Za-z0-9])\w+\.html|([A-Za-z0-9])\w+[-_]\S+\.html"
+              replace: 'BP/$&'
+              regex: true
+              include: "BP/**/*.md"
           - name: Push changes
             uses: stefanzweifel/git-auto-commit-action@v4
 
