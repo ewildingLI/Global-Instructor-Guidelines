@@ -16,7 +16,7 @@ jobs:
         - name: "Find and Replace BP links"
           uses: jacobtomlinson/gha-find-replace@v3
           with:
-            find: "(https?://ewildingli\\.github\\.io/)(?=.*\\.html$)"
+            find: "(https?://ewildingli\\.github\\.io/)(?=.*\\.html\)$)"
             replace: 'https://ewildingli.github.io/BP/'
             regex: true
             include: "BP/*.md"
@@ -24,7 +24,7 @@ jobs:
         - name: "Find and Replace DE links"
           uses: jacobtomlinson/gha-find-replace@v3
           with:
-            find: "(https?://ewildingli\\.github\\.io/)(?=.*\\.html$)"
+            find: "(https?://ewildingli\\.github\\.io/)(?=.*\\.html\)$)"
             replace: 'https://ewildingli.github.io/DE/'
             regex: true
             include: "DE/*.md"
@@ -32,7 +32,7 @@ jobs:
         - name: "Find and Replace ES links"
           uses: jacobtomlinson/gha-find-replace@v3
           with:
-            find: "(https?://ewildingli\\.github\\.io/)(?=.*\\.html$)"
+            find: "(https?://ewildingli\\.github\\.io/)(?=.*\\.html\)$)"
             replace: 'https://ewildingli.github.io/ES/'
             regex: true
             include: "ES/*.md"
@@ -40,7 +40,7 @@ jobs:
         - name: "Find and Replace FR links"
           uses: jacobtomlinson/gha-find-replace@v3
           with:
-            find: "(https?://ewildingli\\.github\\.io/)(?=.*\\.html$)"
+            find: "(https?://ewildingli\\.github\\.io/)(?=.*\\.html\)$)"
             replace: 'https://ewildingli.github.io/FR/'
             regex: true
             include: "FR/*.md"
