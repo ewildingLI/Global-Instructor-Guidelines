@@ -4,6 +4,7 @@ Localization: [Português](https://ewildingli.github.io/Global-Instructor-Guidel
 On this page you can find information to record screencaptures on both Windows and Mac.
 
 More to come soon. And more testing. And some more. And some more. And some more...
+And some more.
 
 - [ ] checkbox
 
