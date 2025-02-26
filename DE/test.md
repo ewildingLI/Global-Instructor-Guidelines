@@ -1,3 +1,3 @@
 Hallo, das ist ein Test.  
-Füge etwas Text hinzu.  
+Ein bisschen Text hinzufügen.  
 [Link zurück](https://ewildingli.github.io/Global-Instructor-Guidelines/index.html)
