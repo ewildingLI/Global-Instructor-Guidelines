@@ -1,7 +1,7 @@
 # Bienvenue
-Localisation : [Português](https://ewildingli.github.io/Global-Instructor-Guidelines/BP/) [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [English](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Espagnol](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
+Localisation : [Portugais](https://ewildingli.github.io/Global-Instructor-Guidelines/BP/) [Allemand](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [Anglais](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Espagnol](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
 
-Sur cette page, vous trouverez des informations pour enregistrer des captures d'écran sur Windows et Mac.
+Sur cette page, vous trouverez des informations sur la façon de prendre des captures d'écran sur Windows et Mac.
 
 [Lien vers test.md](https://ewildingli.github.io/Global-Instructor-Guidelines/test.html)
 
