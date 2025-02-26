@@ -1,9 +1,9 @@
 # Bienvenido
-Localización: [Alemán](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [Inglés](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Español](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Francés](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
+Localización: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [English](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Español](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
 
-En esta página, encontrarás información sobre cómo capturar pantallas en Windows y Mac.
+En esta página puedes encontrar información para grabar capturas de pantalla tanto en Windows como en Mac.
 
-Pronto habrá más información. Y más pruebas.
+Pronto habrá más información. Y más pruebas. Y algo más.
 
 - [ ] casilla de verificación
 
