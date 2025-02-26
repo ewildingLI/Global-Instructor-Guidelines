@@ -3,7 +3,7 @@ Localización: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelin
 
 En esta página puedes encontrar información para grabar capturas de pantalla tanto en Windows como en Mac.
 
-Pronto habrá más información. Y más pruebas. Y un poco más. Y un poco más.
+Pronto habrá más información. Y más pruebas. Y un poco más. Y un poco más. Y un poco más...
 
 - [ ] casilla de verificación
 
