@@ -3,7 +3,7 @@ Lokalisierung: [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelin
 
 Auf dieser Seite finden Sie Informationen zur Aufnahme von Bildschirmaufnahmen sowohl unter Windows als auch unter Mac.
 
-Bald gibt es mehr. Und mehr Tests. Und noch mehr. Und noch mehr.
+Bald gibt es mehr. Und mehr Tests. Und noch mehr. Und noch mehr. Und noch mehr...
 
 - [ ] Kontrollkästchen
 
