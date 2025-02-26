@@ -1,0 +1,48 @@
+name: Replace_Links
+
+on:
+  # Runs on pushes targeting the default branch
+  pull_request:
+    types: 
+      - closed
+    branches:
+      - 'main'
+
+jobs:
+    replacelinks:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v2
+        - name: "Find and Replace BP links"
+            uses: jacobtomlinson/gha-find-replace@v3
+            with:
+            find: "(https?://ewildingli\\.github\\.io/)(?=.*\\.html$)"
+            replace: 'https://ewildingli.github.io/BP/'
+            regex: true
+            include: "BP/*.md"
+        - uses: actions/checkout@v2
+        - name: "Find and Replace DE links"
+            uses: jacobtomlinson/gha-find-replace@v3
+            with:
+            find: "(https?://ewildingli\\.github\\.io/)(?=.*\\.html$)"
+            replace: 'https://ewildingli.github.io/DE/'
+            regex: true
+            include: "DE/*.md"
+        - uses: actions/checkout@v2
+        - name: "Find and Replace ES links"
+            uses: jacobtomlinson/gha-find-replace@v3
+            with:
+            find: "(https?://ewildingli\\.github\\.io/)(?=.*\\.html$)"
+            replace: 'https://ewildingli.github.io/ES/'
+            regex: true
+            include: "ES/*.md"
+        - uses: actions/checkout@v2
+        - name: "Find and Replace FR links"
+            uses: jacobtomlinson/gha-find-replace@v3
+            with:
+            find: "(https?://ewildingli\\.github\\.io/)(?=.*\\.html$)"
+            replace: 'https://ewildingli.github.io/FR/'
+            regex: true
+            include: "FR/*.md"
+        - name: Push_changes
+          uses: stefanzweifel/git-auto-commit-action@v4
