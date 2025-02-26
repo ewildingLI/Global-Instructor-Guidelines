@@ -8,6 +8,8 @@ Und noch mehr.
 
 - [ ] Kontrollkästchen
 
+alte-Zeichenfolge
+
 [Link zu test.md](https://ewildingli.github.io/Global-Instructor-Guidelines/test.html)
 
 <video width="320" height="240" controls><source src="https://github.com/user-attachments/assets/6fa2e412-0073-41ed-81e4-6a23a32ee3ce" type="video/mp4">Ihr Browser unterstützt das Video-Tag nicht.</video>
