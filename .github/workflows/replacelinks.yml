@@ -9,40 +9,28 @@ on:
       - 'main'
 
 jobs:
-    replacelinks:
-        runs-on: ubuntu-latest
-        steps:
-        - uses: actions/checkout@v2
-        - name: "Find and Replace BP links"
-          uses: jacobtomlinson/gha-find-replace@v3
-          with:
-            find: "^(https?://ewildingli\\.github\\.io/).*\\.html\\)$"
-            replace: 'https://ewildingli.github.io/BP/'
-            regex: true
-            include: "BP/*.md"
-        - uses: actions/checkout@v2
-        - name: "Find and Replace DE links"
-          uses: jacobtomlinson/gha-find-replace@v3
-          with:
-            find: "^(https?://ewildingli\\.github\\.io/).*\\.html\\)$"
-            replace: 'https://ewildingli.github.io/DE/'
-            regex: true
-            include: "DE/*.md"
-        - uses: actions/checkout@v2
-        - name: "Find and Replace ES links"
-          uses: jacobtomlinson/gha-find-replace@v3
-          with:
-            find: "^(https?://ewildingli\\.github\\.io/).*\\.html\\)$"
-            replace: 'https://ewildingli.github.io/ES/'
-            regex: true
-            include: "ES/*.md"
-        - uses: actions/checkout@v2
-        - name: "Find and Replace FR links"
-          uses: jacobtomlinson/gha-find-replace@v3
-          with:
-            find: "^(https?://ewildingli\\.github\\.io/).*\\.html\\)$"
-            replace: 'https://ewildingli.github.io/FR/'
-            regex: true
-            include: "FR/*.md"
-        - name: Push_changes
-          uses: stefanzweifel/git-auto-commit-action@v4
+    find-replace:
+      runs-on: ubuntu-latest
+
+      steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Find and replace links in BP
+        run: |
+            find BP -name "*.md" -type f -exec sed -i -E 's#\((https://ewildingli\.github\.io/Global-Instructor-Guidelines/((?!LANG/)[A-Za-z0-9_-]+)\.html)\)#\((https://ewildingli.github.io/Global-Instructor-Guidelines/BP/\2.html)\)#g' {} +
+      - name: Find and replace links in DE
+        run: |
+            find DE -name "*.md" -type f -exec sed -i -E 's#\((https://ewildingli\.github\.io/Global-Instructor-Guidelines/((?!LANG/)[A-Za-z0-9_-]+)\.html)\)#\((https://ewildingli.github.io/Global-Instructor-Guidelines/DE/\2.html)\)#g' {} +
+    
+      - name: Find and replace links in ES
+        run: |
+            find ES -name "*.md" -type f -exec sed -i -E 's#\((https://ewildingli\.github\.io/Global-Instructor-Guidelines/((?!LANG/)[A-Za-z0-9_-]+)\.html)\)#\((https://ewildingli.github.io/Global-Instructor-Guidelines/ES/\2.html)\)#g' {} +
+    
+      - name: Find and replace links in FR
+        run: |
+            find FR -name "*.md" -type f -exec sed -i -E 's#\((https://ewildingli\.github\.io/Global-Instructor-Guidelines/((?!LANG/)[A-Za-z0-9_-]+)\.html)\)#\((https://ewildingli.github.io/Global-Instructor-Guidelines/FR/\2.html)\)#g' {} +
+    
+     - name: Push_changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+
