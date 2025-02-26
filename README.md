@@ -8,7 +8,7 @@ And some more.
 
 - [ ] checkbox
 
-oldstring
+old-string
 
 [Link to test.md](https://ewildingli.github.io/Global-Instructor-Guidelines/test.html)
 
