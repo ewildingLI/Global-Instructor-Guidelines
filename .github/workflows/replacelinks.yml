@@ -14,8 +14,8 @@ jobs:
         steps:
         - uses: actions/checkout@v2
         - name: "Find and Replace BP links"
-            uses: jacobtomlinson/gha-find-replace@v3
-            with:
+          uses: jacobtomlinson/gha-find-replace@v3
+          with:
             find: "(https?://ewildingli\\.github\\.io/)(?=.*\\.html$)"
             replace: 'https://ewildingli.github.io/BP/'
             regex: true
