@@ -1,0 +1,18 @@
+name: Find and Replace Strings in Markdown Files
+
+on: [push]
+
+jobs:
+  find-replace:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Find and replace strings in markdown files
+      run: |
+        find . -name "*.md" -type f -exec sed -i 's/old-string/new-string/g' {} +
+  
+    - name: Push_changes
+      uses: stefanzweifel/git-auto-commit-action@v4
