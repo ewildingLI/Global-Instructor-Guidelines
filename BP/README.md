@@ -1,7 +1,7 @@
 # Bem-vindo
 Localização: [Português](https://ewildingli.github.io/Global-Instructor-Guidelines/BP/) [Deutsch](https://ewildingli.github.io/Global-Instructor-Guidelines/DE/) • [English](https://ewildingli.github.io/Global-Instructor-Guidelines/) • [Español](https://ewildingli.github.io/Global-Instructor-Guidelines/ES/) • [Français](https://ewildingli.github.io/Global-Instructor-Guidelines/FR/)
 
-Nesta página, você pode encontrar informações para gravar capturas de tela tanto no Windows quanto no Mac.
+Nesta página, você encontrará informações sobre como capturar telas no Windows e no Mac.
 
 [Link para test.md](https://ewildingli.github.io/Global-Instructor-Guidelines/test.html)
 
