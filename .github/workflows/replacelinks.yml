@@ -18,7 +18,7 @@ jobs:
 
       - name: Find and replace links in BP
         run: |
-            find BP -name "*.md" -type f -exec sed -i -E 's#\((https://ewildingli\.github\.io/Global-Instructor-Guidelines/((?!BP/)[A-Za-z0-9_-]+)\.html)\)#\((https://ewildingli.github.io/Global-Instructor-Guidelines/BP/\2.html)#g' {} +
+            find BP -name "*.md" -type f -exec sed -i -E 's#\((https://ewildingli\.github\.io/Global-Instructor-Guidelines/([A-Za-z0-9_-]+)\.html)\)#\((https://ewildingli.github.io/Global-Instructor-Guidelines/BP/\2.html)\)#g' {} +
       - name: Find and replace links in DE
         run: |
             find DE -name "*.md" -type f -exec sed -i -E 's#\((https://ewildingli\.github\.io/Global-Instructor-Guidelines/((?!DE/)[A-Za-z0-9_-]+)\.html)\)#\((https://ewildingli.github.io/Global-Instructor-Guidelines/DE/\2.html)#g' {} +
