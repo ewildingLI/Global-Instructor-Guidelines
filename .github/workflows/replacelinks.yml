@@ -18,18 +18,18 @@ jobs:
 
       - name: Find and replace links in BP
         run: |
-            find BP -name "*.md" -type f -exec sed -i -E 's#\((https://ewildingli\.github\.io/Global-Instructor-Guidelines/((?!BP/)[A-Za-z0-9_-]+)\.html)\)#\((https://ewildingli.github.io/Global-Instructor-Guidelines/BP/\2)\)#g' {} +
+            find BP -name "*.md" -type f -exec sed -i -E 's#\((https://ewildingli\.github\.io/Global-Instructor-Guidelines/([A-Za-z0-9_-]+)\.html)\)#\((https://ewildingli.github.io/Global-Instructor-Guidelines/BP/\2)\)#g' {} +
       - name: Find and replace links in DE
         run: |
-            find DE -name "*.md" -type f -exec sed -i -E 's#\((https://ewildingli\.github\.io/Global-Instructor-Guidelines/((?!DE/)[A-Za-z0-9_-]+)\.html)\)#\((https://ewildingli.github.io/Global-Instructor-Guidelines/DE/\2)\)#g' {} +
+            find DE -name "*.md" -type f -exec sed -i -E 's#\((https://ewildingli\.github\.io/Global-Instructor-Guidelines/([A-Za-z0-9_-]+)\.html)\)#\((https://ewildingli.github.io/Global-Instructor-Guidelines/DE/\2)\)#g' {} +
     
       - name: Find and replace links in ES
         run: |
-            find ES -name "*.md" -type f -exec sed -i -E 's#\((https://ewildingli\.github\.io/Global-Instructor-Guidelines/((?!ES/)[A-Za-z0-9_-]+)\.html)\)#\((https://ewildingli.github.io/Global-Instructor-Guidelines/ES/\2)\)#g' {} +
+            find ES -name "*.md" -type f -exec sed -i -E 's#\((https://ewildingli\.github\.io/Global-Instructor-Guidelines/([A-Za-z0-9_-]+)\.html)\)#\((https://ewildingli.github.io/Global-Instructor-Guidelines/ES/\2)\)#g' {} +
     
       - name: Find and replace links in FR
         run: |
-            find FR -name "*.md" -type f -exec sed -i -E 's#\((https://ewildingli\.github\.io/Global-Instructor-Guidelines/((?!FR/)[A-Za-z0-9_-]+)\.html)\)#\((https://ewildingli.github.io/Global-Instructor-Guidelines/FR/\2)\)#g' {} +
+            find FR -name "*.md" -type f -exec sed -i -E 's#\((https://ewildingli\.github\.io/Global-Instructor-Guidelines/([A-Za-z0-9_-]+)\.html)\)#\((https://ewildingli.github.io/Global-Instructor-Guidelines/FR/\2)\)#g' {} +
     
       - name: Push_changes
         uses: stefanzweifel/git-auto-commit-action@v4
